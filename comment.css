@@ -1,0 +1,102 @@
+
+#box{
+    width: 80%;
+    height: 76px;
+    border-radius: 6px;
+    border-color: #b6b7b8;
+    
+}
+
+#style {
+    margin-left: 10px;
+    color: rgb(129, 127, 127);
+}
+
+#comment{
+    width: 80%;
+    height: 65px;
+    border-width: 0;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+    margin-bottom: 8px;
+
+}
+.parent{
+    width: 75%;
+    margin: 4px;
+}
+
+.btn {
+    border-color:  #b6b7b8;
+    border-radius: 10px;
+    color: #b6b7b8;
+    font-size: 14px;
+    border-style: solid;
+    cursor: pointer;
+    font-weight: 400;
+    font-style: normal;
+    width: 5%;
+    height: 37px;
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 3%;
+    margin-left: 5%;
+    border-width:2px;
+    background-color: white;
+    text-align: center;
+}
+ 
+.btn:focus,
+.btn:active{ 
+    outline: 0;
+}
+
+@media(max-width:1200px){
+    #box{
+        height: 70px;
+    }
+    
+    #comment{
+        height: 53px;
+    }
+    
+    .btn {
+       margin-right: 3%;
+       font-size: 12px;
+       width: 55px;
+       height: 30px;
+
+
+    }
+
+    .parent{
+          width: 85%;
+    }
+  }
+
+  @media(max-width:700px){
+      .btn{
+          margin-right: 5px;
+      }
+
+      #comment{
+        width: 70%;
+        height: 50px;
+    
+    }
+
+  }
+
+  @media(max-width:380px){
+      .btn{
+          border-radius: 6px;
+          font-size: 10px;
+          width: 45px;
+          height: 25px;
+          margin-top: 15px;
+          margin-right: 3%;
+          margin-left: 5%;
+          border-width:1px;
+        }
+
